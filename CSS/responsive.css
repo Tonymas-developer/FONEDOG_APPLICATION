@@ -1,0 +1,245 @@
+/* TABLET MODE  */
+
+@media screen and (max-width: 768px) {
+    .nav-bar{
+        border-bottom: 1px solid #fff;
+    }
+   
+    .nav-bar a:not(.drop-down-container a){
+      display: inline-block;
+      text-decoration: none;
+      color: #fff;
+      padding: 15px ;
+      font-size: 12px;
+    }
+  
+    .nav-bar .logo img{
+      height: 25px;
+      margin-right: 2px;
+    }
+  
+   .nav-bar .logo{
+      margin-left: 1%;
+   }
+  
+      .nav-bar .nav-right{
+          margin-right: 1%;
+      }
+  
+    .nav-bar .logo a{
+      color: #fff;
+      opacity: 1;
+      font-size: 20px;
+    }
+  
+    .phone-transfer{
+      width: 70%;
+      height: auto;
+      margin: auto;
+      padding-top: 30px;
+  }
+
+    .download-learn .windows{
+        margin-bottom: 10px;
+    }
+  
+      .testimonial{
+          width: 24%;
+      }
+  
+      .flex{
+          width: 15%;
+      }
+  
+      .flex img{
+          width: 50px;
+          height: 50px;
+      }
+  
+      .language-details input[type=email]{
+          width: 50%;
+      } 
+
+      
+  } 
+
+    @media screen and (max-width: 600px) {
+    .nav-bar{
+        border-bottom: none;
+    }
+
+    .phone-transfer{
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+
+    .blue-container-content{
+        border-radius: 10px;
+    } 
+
+    .solution-heading{
+        margin-top: 0px;
+    }
+
+    .android-ios-container{
+        margin-bottom: 0px;
+    }
+    
+
+    .phone-transfer-btn .button{
+        border: 2px solid #fff;
+        padding: 10px;
+        color: #fff;
+        margin: auto;
+        border-radius: 50px;
+        display: inline-block;
+        font-size: 20px;    
+    }
+
+    .phone-transfer .phone-transfer-content img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .download-learn .windows, .download-learn .learn-more{
+        width: 100%;
+    }
+    
+
+    .download-learn .learn-more{
+        margin: auto;
+    }
+
+    .download-learn .windows{
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .more-product{
+        padding: 10px;
+    }
+
+    .more-product a{
+        display: none;
+    }
+
+    .blue-color1, .blue-color2{
+        margin-bottom: 12px;
+    }
+
+    .blue-container-content .larger-paragraph{
+        font-size: 40px;
+        margin: 45px 0 20px;
+    }
+
+    .android-ios-container, .phone-computer-broken-android{
+        display: block;
+    }
+
+    .mostview-section-content, .achievement-testimonials, .item-section-flex, .choosing-section-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .mostview-section-content{
+        padding: 40px 0;
+    }
+
+    .mostview-section-content a{
+        color: #fff;
+    }
+    
+    .mostview-section-content li{
+        color: #fff;
+        font-size: 16px;
+    }
+    
+    .mostview-section-content p{
+        font-size: 25px;
+        color: #bec7ce;
+        margin-bottom: 20px;
+    }
+
+    .blue-color1{
+        padding: 30px 10px;
+        width: 100%;
+    }
+
+    .blue-color2{
+        width: 100%;
+    }
+
+    .testimonial{
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .item-section .flex{
+        width: 50%;
+    }
+
+    .achievement-testimonials{
+        padding: 20px 0;
+    }
+
+    .achievement-section h1{
+        padding: 20px 0;
+        font-size: 25px;
+    }
+
+    .item-section p{
+        text-align: center;
+        padding: 35px 0;
+        font-size: 25px;
+    }
+
+    .flex{
+        padding: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .flex img{
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    
+    .item-section-flex{
+        display: flex;
+        margin-bottom: 30px;
+        justify-content: space-between;
+    }
+
+    .choosing-section .center{
+        text-align: center;
+        font-size: 16px;
+        width: 100%;
+        
+    }
+
+    .choosing-section .center:not(:last-child){
+        margin-bottom: 30px;
+    }
+
+    .choosing-section{
+    padding: 30px 0;
+    }
+
+    .choosing-section h2{
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 30px;
+    }
+
+    .choosing-section-flex img{
+    width: 80px;
+    height: 80px;
+    }
+
+
+    .p-wrapper{
+        display: block;
+    }
+}  
